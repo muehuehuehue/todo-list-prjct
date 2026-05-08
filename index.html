@@ -198,7 +198,7 @@
         function render() {
             const list = document.getElementById("taskList");
             if (tasks.length === 0) {
-                list.innerHTML = '<p class="empty">No tasks yet — add one above!</p>';
+                list.innerHTML = '<p class="empty">please ADD a task😥😥!</p>';
             } else {
                 list.innerHTML = tasks.map(t => `
                     <div class="task-card ${t.done ? 'done' : ''}">
